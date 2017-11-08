@@ -1,6 +1,6 @@
 # alfa_AWUS1900_adapter
 
-![Alfa Driver Script](https://raw.githubusercontent.com/tpxSecurity/alfa_AWUS1900_adapter/blob/master/ALFA_drivers.png)
+![Alfa Driver Script](https://raw.githubusercontent.com/tpxSecurity/alfa_AWUS1900_adapter/master/ALFA_drivers.png)
 
 
 Instalador de Drive para la antena usb AWUS1900.
