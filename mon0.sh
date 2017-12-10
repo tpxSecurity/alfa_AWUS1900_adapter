@@ -1,6 +1,6 @@
 #!/bin/bash
 # Modo monitor automatizado
-# put this command bashrc:
+# put this command in to .bashrc:
 # alias mon0='./path/to/mon0.sh'
 
 
@@ -60,6 +60,7 @@ if [ "$usuario" != "root" ]
 		start)
 		echo ""
 		ifconfig wlan0 down
+		iwconfig wlan0 txpower 30
 		iwconfig wlan0 mode monitor
 		ifconfig wlan0 up
 		echo -e "${White}  [${Green}!!${White}] Modo Monitor Listo.  ${White}"
